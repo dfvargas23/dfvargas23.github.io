@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .intro {
+            font-size: 16px;
+            color: #555;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        td {  
+            padding-left: 70px;
+            font-size: 15px; 
+        }
+        .info {
+            padding-left: 15px;
+        }
+        th {
+            font-size: 15px;
+        }
+        .course {
+            margin-top: 10px;
+        }
+        .manage {
+            padding-left: 30px;
+        }
+        .tech {
+            text-align: left;
+        }
+
+        .education-skills {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .education {
+            flex-basis: 45%;
+        }
+
+        .skills-container{
+            flex-basis: 45%;
+            
+        }
+
+        .language {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .skills {
+            text-align: left;
+        }
+        .skills-container, .skills {
+            padding: 0px;
+        }
+
+        .references {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .references li {
+            width: calc(50% - 20px);
+            margin-right: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+     
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <img src="Vargas_DeanFrancis.jpg" alt="Your Avatar" class="avatar">
+            <div>
+                <h1>Dean Francis C. Vargas</h1>
+                <p class="intro">Developer | Student</p>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>Address</td>
+                        <td class="info">San Roque St., Vinzons, Camarines Norte</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td class="info">dfvargas18@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td class="info">(+63) 949-824-2369</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <hr>
+        <h2>Personal Statement</h2>
+        <p>To work in a professional environment that will utilize and enhance my skills, while contributing to the success of the company. And allow clients to adapt to the ever-changing digital landscape.</p>
+
+        <hr>
+        <div class="education-skills">
+            <!-- Education -->
+            <div class="education">
+                <h2>Education</h2>
+                <p class="course"><b>General Academic Strand</b></p>
+                <p class="school"><i>Vinzons Pilot High School</br>2018 - 2020</i></p>
+                <p class="course"><b>Bachelor of Science in Information Technology</b></p>
+                <p class="school"><i>Ateneo de Naga University</br>2020 - Present</i></p>
+            </div>
+            <!-- Skills  -->
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <table>
+                    <tr>
+                        <th class="tech">Technical</th>
+                        <th class="manage">Language</th>
+                    </tr>
+                    <tr>
+                        <td class="skills">Microsoft 365</td>
+                        <td class="language">English</td>
+                    </tr>
+                    <tr>
+                        <td class="skills">Google Workspace</td>
+                        <td class="language">Tagalog</td>
+                    </tr>
+                    <tr>
+                        <td class="skills">Github</td>
+                        <td class="language">Bikol</td>
+                    </tr>
+                    <tr>
+                        <td class="skills">C++</td>
+                    </tr>
+                    <tr>
+                        <td class="skills">Java</td>
+                    </tr>
+                    <tr>
+                        <td class="skills">C</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <hr>
+        <h2>References</h2>
+        <ol class="references">
+            <li>
+                <p><strong>Jeric Barcelona</strong></p>
+                <p>Position: Web Developer</p>
+                <p>Email: jbarcelona@outlook.com</p>
+                <p>Phone: (+63) 945-381-9098</p>
+            </li>
+            <li>
+                <p><strong>Cymone Ramos</strong></p>
+                <p>Position: Project Manager</p>
+                <p>Email: cyramos@gmail.com</p>
+                <p>Phone: (+63) 947-789-1011</p>
+            </li>
+        </ol>
+
+        <hr>
+        <h2>Seminars and Certificates</h2>
+        <ul class="seminars-certificates">
+            <li>
+                <p><strong>SAP Business One</strong></p>
+                <p>Ateneo de Naga University</p>
+                <p>October 2022</p>
+            </li>
+            <li>
+                <p><strong>Tech Start-Ups: Solving Social Problems</strong></p>
+                <p>Ateneo de Naga University OSA</p>
+                <p>May 2022</p>
+            </li>
+            <li>
+                <p><strong>Ateneo Computer Programming Competition (Preliminary)</strong></p>
+                <p>Ateneo de Naga University</p>
+                <p>May 2021</p>
+            </li>
+            <li>
+                <p><strong>Ateneo Computer Programming Competition (Qualifying)</strong></p>
+                <p>Ateneo de Naga University</p>
+                <p>May 2021</p>
+            </li>
+            <li>
+                <p><strong>National Situationer Update</strong></p>
+                <p>Ateneo de Naga University</p>
+                <p>February 2022</p>
+            </li>
+           
+    
+        </ul>
+    </div>
+</body>
+</html>
