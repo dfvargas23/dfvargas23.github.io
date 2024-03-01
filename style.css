@@ -1,0 +1,52 @@
+body {
+    background-color: lightslategrey;
+    font-family: 'Oswald';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+div {
+    background-color: white;
+    height: 720px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form, h1 {
+   
+    display: block;
+    width: fit-content;
+    height: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input {
+    display: block;
+    margin-bottom: -20px;
+}
+textarea {
+    display: block;
+    margin-bottom: -10px;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: green;
+}
+input[type="reset"] {
+    background-color: red;
+}
